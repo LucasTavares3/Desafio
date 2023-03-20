@@ -1,0 +1,15 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/Calculadora.png" />
+    <input type="number" [(ngModel)]="num1" placeholder="Valor 1"/>
+    <select [(ngModel)]="operacao">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">x</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" [(ngModel)]="num2" placeholder="Valor 2"/>
+    <button (click)="calcular()">Calcular</button>
+    <h1>Resultado: {{ resultado }}</h1>
+  </div>
+</div>

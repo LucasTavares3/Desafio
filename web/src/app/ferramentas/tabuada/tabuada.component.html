@@ -1,0 +1,17 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/tabuada.png" />
+    <h1 for="numero">Digite um número:</h1>
+    <input type="number" id="numero" [(ngModel)]="numero" />
+    <h1 for="numero">Digite um início da tabuada:</h1>
+    <input type="number" id="numero" [(ngModel)]="inicio" />
+    <h1 for="numero">Digite um fim da tabuada:</h1>
+    <input type="number" id="numero" [(ngModel)]="fim" />
+    <button (click)="gerarTabuada()">Gerar tabuada</button>
+    <ul>
+      <li *ngFor="let item of tabuada; index as i">
+        {{ numero }} x {{ i + inicio }} = {{ item }}
+      </li>
+    </ul>
+  </div>
+</div>

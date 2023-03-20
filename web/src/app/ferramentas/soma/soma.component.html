@@ -1,0 +1,14 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/soma.png" />
+    <input
+      [(ngModel)]="numero"
+      type="number"
+      placeholder="Digite um número inteiro"
+    />
+    <button (click)="somar()">Somar</button>
+    <h1 *ngIf="resultado">
+      A soma da sequência de números do número {{ numero }} é {{ resultado }}
+    </h1>
+  </div>
+</div>

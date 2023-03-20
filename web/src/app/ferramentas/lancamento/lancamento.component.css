@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--terceira-color);
+  border-radius: 5px;
+  width: 500px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 8px var(--segunda-color);
+  display: flex;
+  align-items: center;
+}
+
+.card h1{
+  font-size: 40px;
+  padding: 5px;
+}
+
+.card h1, .card h2 {
+  color: var(--primeira-color);
+  text-decoration: none;
+}
+
+input{
+  margin: 5px;
+  border-radius: 8px;
+}
+
+button{
+  width: 100%;
+  border-radius: 8px;;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}

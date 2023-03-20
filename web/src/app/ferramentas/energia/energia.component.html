@@ -1,0 +1,10 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/energia.png" />
+    <input type="number" placeholder="Qtde de Kwh consumidos" [(ngModel)]="kwhConsumidos" />
+    <input type="number" placeholder="Valor unitário do Kwh" [(ngModel)]="valorKwh" />
+    <button (click)="calcularConsumo()">Calcular Consumo</button>
+    <h1>Consumo:</h1>
+    <h2>{{consumo}}</h2>
+  </div>
+</div>

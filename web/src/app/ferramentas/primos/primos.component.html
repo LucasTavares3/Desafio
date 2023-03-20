@@ -1,0 +1,10 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/primo.png" />
+    <input type="number" id="number-input" [(ngModel)]="numero" placeholder="Digite um número"/>
+    <button (click)="checkPrime()">Verificar</button>
+    <h1 *ngIf="primo !== undefined">
+      O número {{ numero }} {{ primo ? "é" : "não é" }} primo.
+    </h1>
+  </div>
+</div>

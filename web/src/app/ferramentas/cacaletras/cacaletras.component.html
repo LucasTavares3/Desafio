@@ -1,0 +1,11 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/caça-letra.png" />
+    <input type="text" [(ngModel)]="frase" placeholder="Digite a frase" />
+    <input type="text" [(ngModel)]="letra" placeholder="Digite a letra" />
+    <button (click)="contar()">Contar</button>
+    <h2>
+      A letra {{ letra }} apareceu {{ quantidade }} vez(es)
+    </h2>
+  </div>
+</div>

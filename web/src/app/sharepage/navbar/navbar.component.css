@@ -1,0 +1,24 @@
+.nav-link.active-link{
+  font-weight: bold;
+}
+
+a, a:visited, .nav-link.active-link{
+  color: var(--primeira-color)
+}
+
+a:hover{
+  color: #9340FF;
+}
+
+img{
+  height: 50px;
+}
+
+.navbar-brand, .nav-link{
+  transition: all 0.3s ease-out;
+}
+
+
+.navbar-brand:hover, .nav-link:hover{
+  transform: translateY(-2px);
+}

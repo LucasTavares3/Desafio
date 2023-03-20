@@ -1,0 +1,26 @@
+h1, p{
+  color: var(--primeira-color);
+}
+
+.banner{
+  margin: 0vh 15vh 0vh 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img{
+  height: 400px;
+  transition: all 0.3s ease-out;
+}
+
+img:hover {
+  transform: translateY(-5px);
+}
+
+span, i{
+  color: var(--segunda-color);
+  transition: all 0.3s ease-out;
+}
+
+

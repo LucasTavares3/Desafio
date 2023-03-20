@@ -1,0 +1,10 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/fatorial.png" />
+    <input type="number" [(ngModel)]="numero" placeholder="Digite um número" />
+    <button (click)="calcularFatorial()">Calcular Fatorial</button>
+    <h1 *ngIf="resultado !== null">
+      O fatorial de {{ numero }} é {{ resultado }}
+    </h1>
+  </div>
+</div>

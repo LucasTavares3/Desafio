@@ -1,0 +1,11 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/lançamento.png" />
+    <input type="number" placeholder="Velocidade Inicial" [(ngModel)]="velocidadeInicial" />
+    <button (click)="calcularAltura()" (click)="calcularTempo()">Calcular altura máxima</button>
+    <h1>Altura Máxima (m):</h1>
+    <h2>{{alturaMaxima}}</h2>
+    <h1>Tempo (s):</h1>
+    <h2>{{tempo}}</h2>
+  </div>
+</div>

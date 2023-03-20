@@ -1,0 +1,12 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/crescente.png" />
+    <input
+      type="text"
+      [(ngModel)]="numero"
+      placeholder="Digite um número inteiro"
+    />
+    <button (click)="verificarSequencia()">Verificar</button>
+    <h1 *ngIf="resultado !== null">{{ resultado }}</h1>
+  </div>
+</div>

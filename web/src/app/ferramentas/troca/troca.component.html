@@ -1,0 +1,14 @@
+<div class="cards">
+  <div class="card">
+    <img src="../../../assets/img/Troca.png" />
+    <div class="inputs">
+      <div class="valores">
+        <input type="number" [(ngModel)]="inputs[0].valor" placeholder="Valor 1" />
+      </div>
+      <div class="valores">
+        <input type="number" [(ngModel)]="inputs[1].valor" placeholder="Valor 2" />
+      </div>
+    </div>
+    <button (click)="trocarInputs(inputs[0], inputs[1])">Trocar</button>
+  </div>
+</div>

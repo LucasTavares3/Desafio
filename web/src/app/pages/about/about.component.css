@@ -1,0 +1,17 @@
+h1, p{
+  color: var(--primeira-color);
+}
+
+.banner{
+  margin: 20vh 8vh 0vh 8vh;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
