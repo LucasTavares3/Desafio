@@ -1,6 +1,6 @@
 .cards {
   display: flex;
-  margin-top: 25px;
+  margin-top: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -16,12 +16,9 @@
   align-items: center;
 }
 
-.card h1{
-  font-size: 40px;
+h1{
+  font-size: large;
   padding: 5px;
-}
-
-.card h1, .card h2 {
   color: var(--primeira-color);
   text-decoration: none;
 }

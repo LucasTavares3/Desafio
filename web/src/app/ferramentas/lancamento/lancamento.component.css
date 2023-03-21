@@ -16,27 +16,27 @@
   align-items: center;
 }
 
-.card h1{
+h1 {
   font-size: 40px;
   padding: 5px;
 }
 
-.card h1, .card h2 {
+h1,h2 {
   color: var(--primeira-color);
   text-decoration: none;
 }
 
-input{
+input {
   margin: 5px;
   border-radius: 8px;
 }
 
-button{
+button {
   width: 100%;
-  border-radius: 8px;;
+  border-radius: 8px;
 }
 
-img{
+img {
   height: 100px;
   width: 100px;
 }

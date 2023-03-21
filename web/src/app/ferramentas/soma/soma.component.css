@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-h1, li{
+h1{
   color: var(--primeira-color);
   font-size: large;
 }
@@ -35,7 +35,4 @@ img{
   width: 100px;
 }
 
-ul {
-  list-style: none;
-}
 

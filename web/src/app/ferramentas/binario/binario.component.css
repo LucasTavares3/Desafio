@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-h1, h2{
+h1{
   color: var(--primeira-color);
   margin: 15px;
   font-size: large;
