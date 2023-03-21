@@ -1,23 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-carrinho',
   templateUrl: './carrinho.component.html',
   styleUrls: ['./carrinho.component.css']
 })
-export class CarrinhoComponent implements OnInit {
-  count: number = 0;
-
-  constructor(){}
-
-  ngOnInit(): void {
-  }
+export class CarrinhoComponent {
+  conta: number = 0;
 
   increment(): void{
-    this.count ++;
+    this.conta ++;
   }
 
   decrement(): void{
-    this.count -= this.count ? 1: 0;
+    this.conta -= this.conta ? 1: 0;
   }
 }
