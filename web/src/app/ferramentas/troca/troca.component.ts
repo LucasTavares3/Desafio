@@ -1,9 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-export interface InputTroca {
-  id: number;
-  valor: string;
-}
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-troca',
@@ -12,19 +7,26 @@ export interface InputTroca {
 })
 
 
-export class TrocaComponent implements OnInit {
-  inputs: InputTroca[] = [
-    { id: 1, valor: 'Valor 1' },
-    { id: 2, valor: 'Valor 2' }
-  ];
+export class TrocaComponent {
+  valor1: any;
+  valor2: any;
 
-  trocarInputs(input1: InputTroca, input2: InputTroca) {
-    const valorTemp = input1.valor;
-    input1.valor = input2.valor;
-    input2.valor = valorTemp;
+  trocarValores(): void {
+    const temp = this.valor1;
+    this.valor1 = this.valor2;
+    this.valor2 = temp;
   }
 
-  ngOnInit(): void {
+  resetarValores(): void {
+    this.valor1 = null;
+    this.valor2 = null;
+  }
 
+  alternarValores(): void {
+    if (this.valor1 && this.valor2) {
+      this.trocarValores();
+    } else {
+      this.resetarValores();
+    }
   }
 }

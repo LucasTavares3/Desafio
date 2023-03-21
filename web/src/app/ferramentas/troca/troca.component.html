@@ -3,12 +3,12 @@
     <img src="../../../assets/img/Troca.png" />
     <div class="inputs">
       <div class="valores">
-        <input type="number" [(ngModel)]="inputs[0].valor" placeholder="Valor 1" />
+        <input type="number" [(ngModel)]="valor1" placeholder="Valor 1" />
       </div>
       <div class="valores">
-        <input type="number" [(ngModel)]="inputs[1].valor" placeholder="Valor 2" />
+        <input type="number" [(ngModel)]="valor2" placeholder="Valor 2" />
       </div>
     </div>
-    <button (click)="trocarInputs(inputs[0], inputs[1])">Trocar</button>
+    <button (click)="alternarValores()">Trocar</button>
   </div>
 </div>
